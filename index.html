@@ -1,0 +1,169 @@
+<!-----PLEASE PLEASE PLEASE------>
+<!-------READ THESE LINES------>
+
+<!-----I am very new to coding so this code can appear boring ---->
+<!------This is very simple because its my nineteenth code ever and its purely my eighth try with css.--->
+<!-----No. of days i commited to this code = 5----->
+<!----I will not request you all to upvote because that's not the reason i created it---->
+<!----My only aim to create this is to try something with my newly learned skills---->
+<!----Its the first time i tried to create simple ui..so don't know much about it     :( --->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Arbutus' rel='stylesheet'>
+    </head>
+    <body>    
+    <style>
+        body {
+    margin:0;
+    display:flex;
+    height:100vh;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTa52n_xSLh5GyYwOA6E0dXzm2BBssCXbNhxA&usqp=CAU");
+    background-size:cover;
+    font-family:'Arbutus';
+}
+
+form {
+    
+    width:80vmin;
+    background:#fff3;
+    box-shadow:0 1vmin 1.5vmin #2223;
+    
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+    
+}
+
+form img {  
+    position:absolute;
+    height:20vmin;
+    width:20vmin;
+    top:0%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border-radius:50%;
+}
+
+
+form p.head {
+    font-size:6vmin;
+    text-transform:uppercase;
+    color:#fff;
+    margin-bottom:0;
+}
+
+
+form input {
+    height:8vmin;
+    background:transparent;
+    border:none;
+    border-bottom:.4vmin solid #fff;
+    margin-top:3vmin;
+    margin-bottom:3vmin;
+    color:#fff;
+    font-size:3.4vmin;
+    width:80%;
+    outline:none;
+    font-family:"Amita";
+    
+}
+
+form input::placeholder {
+    color:#fff;
+    font-family:"Amita";
+}
+
+form p {
+    color:#fff;
+    font-size:3.8vmin;
+}
+
+form button.submit {
+    width:80%;
+    height:11vmin;
+    border:none;
+    background:linear-gradient(45deg, #03A9F4, #64B5F6);
+    color:#fff;
+    font-size:4.2vmin;
+    margin-top:3vmin;
+}
+
+form div {
+    width:80%;
+}
+
+form div button {
+    width:45%;
+    height:10vmin;
+    border:0;
+    color:#fff;
+    font-style:3.5vmin;
+}
+
+form div button:nth-child(1) {
+    margin-left:5%;
+    background:#3b5998;
+}
+
+form div button:nth-child(2) {
+    background:#fff;
+    color:#222;
+}
+
+
+
+    </style> 
+   <script>  alert(" WARNING⚠️: the code is boring😒 as i am just a beginner🙂.")</script>  
+
+    <form id="form"> 
+        
+        
+
+
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbsDumP-yg3WNwi6YfDy9g0zxYM_a6iPkoGQ&usqp=CAU" alt="Avatar" class="avatar"> 
+  
+
+        <p class="head">Login</p>
+  
+        <input type="text" placeholder="Username" required  />
+
+        <input type="password" placeholder="Password" required/>
+        
+        <p class="fw">Forgot Password?</p>
+        <button class="submit">Submit</button>
+        
+        <p>or login with</p>
+        
+        <div>
+            <button type="button">Facebook</button>
+            <button type="button">Google</button>
+        </div>
+        
+        <p>don't have an account?<br> <a href="#"><center>Sign up</center></a></p>
+
+
+    </form> 
+
+     
+        <script>
+            
+         document.getElementById("form").addEventListener("submit", function(e){
+  e.preventDefault();
+  alert("Thank You")
+ })
+          
+        </script>
+        
+    </body>
+</html>
